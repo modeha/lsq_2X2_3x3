@@ -1,0 +1,10 @@
+python nlpy_reglsq.py  -n           2   -m            4      -r 1.0
+python nlpy_reglsq.py  -n           4   -m            8      -r 1.0e-03
+python nlpy_reglsq.py  -n           8   -m           16      -r 1.0e-03
+python nlpy_reglsq.py  -n          16   -m           32      -r 1.0e-03
+python nlpy_reglsq.py  -n          32   -m           64      -r 1.0e-03
+python nlpy_reglsq.py  -n          64   -m          128      -r 1.0e-03
+python nlpy_reglsq.py  -n         128   -m          256      -r 1.0e-03
+python nlpy_reglsq.py  -n         256   -m          512      -r 1.0e-03
+python nlpy_reglsq.py  -n         512   -m         1024      -r 1.0e-03
+python nlpy_reglsq.py  -n        1024   -m         2048      -r 1.0e-03
