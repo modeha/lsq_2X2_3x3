@@ -1691,9 +1691,7 @@ class RegLSQInteriorPointSolver4x4(RegQPInteriorPointSolver3x3):
         rhs = self.initialize_rhs()
         rhs[nx+ns:n] = self.d
         m = self.b.shape[0]
-        rhs[n:n+m] = self.b
-        print rhs
-        sss        
+        rhs[n:n+m] = self.b    
         return rhs
 
     def update_initial_guess_rhs(self, rhs):
